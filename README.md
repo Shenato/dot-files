@@ -1,7 +1,7 @@
 # My dot-config
 
 # Install
--https://github.com/powerline/fonts
+- https://github.com/powerline/fonts
 - vscode
 - google-chrome
 - google-cloud-sdk
