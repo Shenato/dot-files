@@ -8,7 +8,7 @@
 - slack-desktop
 - spotify
 
-#packages
+# packages
 ## brew
 
 
