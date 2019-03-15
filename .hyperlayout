@@ -1,0 +1,15 @@
+[
+  ["cd ~/work/repos/vagrant-dbs && vagrant up", "cd ~/work/repos/vagrant-kafka && vagrant up"],
+  "cd ~/work/repos/leaderboard-service && sleep 60 && ./start.sh",
+  "cd ~/work/repos/pubg-service && sleep 60 && ./mvnw spring-boot:run",
+  "cd ~/work/repos/team-service && sleep 60 && ./mvnw spring-boot:run",
+  "cd ~/work/repos/tournament-service && sleep 60 && ./start.sh",
+  "cd ~/work/repos/rating-service && sleep 60 && ./start.sh",
+  "cd ~/work/repos/src/mqtt-online-users && sleep 60 && ./main",
+  "cd ~/work/repos/src/mqtt-publish-service && sleep 60 && ./main",
+  "cd ~/work/repos/src/glootcms && sleep 60 && ./main",
+  "cd ~/work/repos/matchmaking-service-old && sleep 60 && npm run dev",
+  "cd ~/work/repos/gll-admin-web-client && npm run dev",
+  "cd ~/work/repos/gll-play-web-client && npm run dev",
+  "cd ~/work/repos"
+]
