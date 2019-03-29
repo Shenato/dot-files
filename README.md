@@ -1,6 +1,7 @@
 # My dot-config
 
 # Install
+
 - https://github.com/powerline/fonts
 - vscode
 - google-chrome
@@ -9,8 +10,8 @@
 - spotify
 
 # packages
-## brew
 
+## brew
 
 - antigen
 - gcc
@@ -44,4 +45,25 @@
 - readline
 - tig
 
+# Applications (Mac)
 
+- Discord.app
+- Docker.app
+- Google Chrome.app
+- Hyper.app
+- Karabiner-Elements.app
+- Karabiner-EventViewer.app
+- MQTT.fx.app
+- MongoDB Compass Community.app
+- Postman.app
+- Slack.app
+- Sourcetree.app
+- Spotify.app
+- TextEdit.app
+- Tunnelblick.app
+- VirtualBox.app
+- Visual Studio Code.app
+- Zeplin.app
+- cd_to.app
+- iTerm.app
+- pgAdmin 4.app
