@@ -30,12 +30,6 @@ code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 export PATH="$PATH:/Users/omarelgaml/work/repos/mac-scripts"
 
 
-export GOPATH=$HOME/work/repos
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-export PATH=/usr/local/bin:$PATH
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 export WINIT_HIDPI_FACTOR=1.0
