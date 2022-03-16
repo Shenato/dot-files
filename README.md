@@ -13,28 +13,32 @@
 
 ## brew
 
+### Essentials
 - antigen
+- hyper
+- kubernetes-cli
+- nvm
+- zsh
+- docker
+- git
+- jq
+- tig
+- k9s
+### Others
 - gcc
 - gettext
 - gmp
-- hyper
 - isl
-- kubernetes-cli
 - libmpc
 - lzo
 - mpfr
-- node
 - openssl
 - pcre2
 - python@2
 - sqlite
-- zsh
-- docker
 - gdbm
-- git
 - go
 - icu4c
-- jq
 - kubernetes-helm
 - lz4
 - maven
@@ -43,7 +47,6 @@
 - openvpn
 - putty
 - readline
-- tig
 
 # Applications (Mac)
 
