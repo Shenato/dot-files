@@ -1,6 +1,6 @@
 # Created by newuser for 5.6.2
 # Set up the prompt
-source //usr/local/Cellar/antigen/2.2.3/share/antigen/antigen.zsh
+source /opt/homebrew/share/antigen/antigen.zsh
 source ~/.bash_profile
 
 # Load the oh my zsh
@@ -23,7 +23,7 @@ alias tmux='tmux -2'
 
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export PATH=/usr/local/bin:$PATH
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+# export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 export GOPATH=$HOME/work/repos
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
@@ -31,13 +31,16 @@ export PATH="$PATH:/Users/omarelgaml/work/repos/mac-scripts"
 
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
 export WINIT_HIDPI_FACTOR=1.0
 export ANDROID_HOME=~/Android/Sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 
-
+# SSH
+export SSH_KEY_PATH="~/.ssh/rsa_id"
 if [ -f ~/.ssh/agent.env ] ; then
   . ~/.ssh/agent.env > /dev/null
   if ! kill -0 $SSH_AGENT_PID > /dev/null 2>&1; then
