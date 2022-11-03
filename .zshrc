@@ -38,9 +38,10 @@ export WINIT_HIDPI_FACTOR=1.0
 export ANDROID_HOME=~/Android/Sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+ 
 
 # SSH
-export SSH_KEY_PATH="~/.ssh/rsa_id"
+export SSH_KEY_PATH="~/.ssh/id_ed25519"
 if [ -f ~/.ssh/agent.env ] ; then
   . ~/.ssh/agent.env > /dev/null
   if ! kill -0 $SSH_AGENT_PID > /dev/null 2>&1; then
@@ -66,3 +67,6 @@ prompt_context() {
     prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
   fi
 }
+
+# Alias scripts
+alias kill_port='~/.dotfiles/scripts/kill_port.sh'
